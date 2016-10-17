@@ -18,8 +18,10 @@ exports.functionsAnswers = {
 
   makeClosures: function(arr, fn) {
     var ret = [];
-    for (let i=0; i<arr.length; i++) {
-      ret.push( function() {
+    //for (let i=0; i<arr.length; i++) {
+      //ret.push( function() {
+    for (var i=0; i<arr.length; i++) {
+      ret.push( function(i) {
         return fn(arr[i]);
       });
     }
