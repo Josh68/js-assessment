@@ -27,10 +27,17 @@ exports.stringsAnswers = {
   },
 
   wordWrap: function(str, cols) {
-
+    for (let i=4; i < str.length - 5; i+=5) {
+      //try splitting the string first - this isn't working yet
+      if ((/\s/).test(str.charAt(str[i]))) {
+        str.replace(/\s/, '\n');
+      } else {
+        str = str.substring(0, i) + '\n' + str.substring(i);
+      }
+    }
   },
 
   reverseString: function(str) {
-
+    return str.split('').reverse().join('');
   }
 };
