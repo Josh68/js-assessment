@@ -1,0 +1,29 @@
+█ [ D:\web\js-assessment-react-class ] ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+█ [ D:\web\js-assessment-react-class ] dir
+ Volume in drive D is DATA
+ Volume Serial Number is 90EA-8988
+
+ Directory of D:\web\js-assessment-react-class
+
+10/17/2016  09:49 PM    <DIR>          .
+10/17/2016  09:49 PM    <DIR>          ..
+10/11/2016  07:14 PM                30 .gitignore
+10/11/2016  07:14 PM                57 .travis.yml
+10/17/2016  09:27 PM    <DIR>          app
+10/11/2016  07:14 PM               406 CHANGELOG.md
+10/11/2016  07:14 PM    <DIR>          data
+10/11/2016  07:14 PM               402 help.txt
+10/11/2016  07:14 PM               607 index.js
+10/11/2016  07:14 PM    <DIR>          lib
+10/11/2016  07:31 PM    <DIR>          node_modules
+10/11/2016  07:14 PM               957 package.json
+10/11/2016  07:14 PM             3,797 README.md
+10/17/2016  09:49 PM                 1 terminal.glue
+10/11/2016  07:14 PM    <DIR>          tests
+               8 File(s)          6,257 bytes
+               7 Dir(s)  60,387,545,088 bytes free
+
+ 
